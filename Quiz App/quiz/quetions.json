@@ -1,0 +1,82 @@
+[
+    {
+        "tiltel": "Which property is used to change the font color of element's text?",
+        "answer_1": "color",
+        "answer_2": "font-color",
+        "answer_3": "background-color",
+        "answer_4": "text-color",
+        "write_answer": "color"
+    },
+    {
+        "tiltel": "Is allowed to use negative values for margin property?",
+        "answer_1": "yes",
+        "answer_2": "no",
+        "answer_3": "sometimes",
+        "answer_4": "no answer",
+        "write_answer": "yes"
+    },
+    {
+        "tiltel": "What is the value of 1vh if the viewport is 1000px wide and 800px high?",
+        "answer_1": "10px",
+        "answer_2": "100px",
+        "answer_3": "8px",
+        "answer_4": "80px",
+        "write_answer": "8px"
+    },
+    {
+        "tiltel": "Which properties are used to change the background color of element?",
+        "answer_1": "outline",
+        "answer_2": "background-color",
+        "answer_3": "color",
+        "answer_4": "body-background-color",
+        "write_answer": "background-color"
+    },
+    {
+        "tiltel": "How to insert a comments in a CSS file?",
+        "answer_1": "//comment//",
+        "answer_2": ">>comment<<",
+        "answer_3": "//comment",
+        "answer_4": "/*comment*/",
+        "write_answer": "/*comment*/"
+    },
+    {
+        "tiltel": "Which HTML tag is used to define an external style sheet?",
+        "answer_1": "<link>",
+        "answer_2": "<style-sheet>",
+        "answer_3": "<style>",
+        "answer_4": "<css>",
+        "write_answer": "<link>"
+    },
+    {
+        "tiltel": "How to include one CSS file in another?",
+        "answer_1": "import url('external.css')",
+        "answer_2": "@link url('external.css')",
+        "answer_3": "@import url('external.css')",
+        "answer_4": "@insert url('external.css')",
+        "write_answer": "@import url('external.css')"
+    },
+    {
+        "tiltel": "Which values are VALID for justify-content CSS property?",
+        "answer_1": "flex-center",
+        "answer_2": "space-around",
+        "answer_3": "right",
+        "answer_4": "left",
+        "write_answer": "space-around"
+    },
+    {
+        "tiltel": "What is the value of 1vmax if the viewport is 1000px wide and 800px high?",
+        "answer_1": "80px",
+        "answer_2": "100px",
+        "answer_3": "8px",
+        "answer_4": "10px",
+        "write_answer": "10px"
+    },
+    {
+        "tiltel": "Which values are VALID for the box-sizing CSS property?",
+        "answer_1": "display-box",
+        "answer_2": "content-box",
+        "answer_3": "inline-box",
+        "answer_4": "several-box",
+        "write_answer": "content-box"
+    }
+]

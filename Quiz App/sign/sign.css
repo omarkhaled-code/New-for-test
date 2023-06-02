@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #5cfefd;
+    --second-color: #002d4c;
+    --btn-color: linear-gradient(0deg, #2c3c99, #00b0ff);
+}
+
+body {
+    background: var(--second-color);
+    font-family: Tahoma;
+}
+
+section {
+    background-image: url("../2201_w026_n002_1335b_p1_1335.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    width: auto;
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    color: white;
+    background: linear-gradient(180deg, #5cfefe1a, var(--second-color), #00b0ff);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container .form {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #5cfefe1a, var(--second-color), #5cfefe1a);
+    box-shadow: 0px 0px 44px 0px #5cfefe1a;
+    width: 350px;
+    border-radius: 22px;
+    margin-top: 100px;
+}
+
+.container .form h2 {
+    margin: 20px 0;
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 80%;
+
+}
+
+.input {
+    position: relative;
+}
+
+.inputs input {
+    padding: 10px;
+    margin: 10px auto;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #eeeeee70;
+    color: white;
+    font-weight: bold;
+}
+
+.inputs input[type="text"] {
+    color: white;
+}
+
+.inputs input[type="password"] {
+    color: var(--main-color);
+}
+
+
+/* Hide And Show Button  */
+
+
+
+i.hide,
+i.show {
+    display: none;
+    color: var(--main-color);
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.inputs input::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color: var(--second-color);
+}
+
+.inputs #submit,
+.button {
+    background: linear-gradient(0deg, #2c3c99, #00b0ff);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+
+.inputs #submit {
+    width: 60%;
+    font-size: 19px;
+}
+
+/* 
+.button {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 40%;
+    color: var(--second-color);
+} */
+
+
+.button:hover,
+.inputs #submit:hover {
+    background-color: transparent;
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+}
+
+
+.inputs .input::before {
+    content: "";
+    position: absolute;
+    top: 46px;
+    height: 1px;
+    background-color: var(--main-color);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    transition: 1s;
+}
+
+.inputs input:focus {
+    outline: none;
+}
+
+.input:hover::before {
+    width: 75%;
+}
+
+.buttons p {
+    color: #333;
+    text-align: center;
+}
+
+
+.img img {
+    width: 500px;
+}
+
+.copy {
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 65px;
+    left: 95px;
+    cursor: pointer;
+    background-color: #ebebeb;
+
+}
+
+.copyed,
+.copy:Hover {
+    background: #bdbaba;
+}
+
+
+@media (max-width: 767px) {
+    .img img {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .img img {
+        width: 340px;
+    }
+}
